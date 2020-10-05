@@ -6,11 +6,11 @@
       </p>
     </figure>
     <div class="media-content">
+    <%= render 'tweets/form' %>
     </div>
   </article>
-</div>
 
-<% @tweets.each do | tweets| %>
+<% @tweets.each do | tweet | %>
   <div class="box">
     <article class="media">
       <div class="media-left">
@@ -22,7 +22,7 @@
         <div class="content">
           <strong>Kalu Agu Kalu</strong><br />
           <small>@Godswilly</small><br />
-          <p><%= @tweet %></p>
+          <p><%= tweet.tweet %></p>
         </div>
 
         <nav class="level">
@@ -30,10 +30,10 @@
             <%= link_to @tweet, class: "level-item" do %>
               <span class="icon"><i class="fa fa-link" aria-hidden="true"></i></span>
             <% end %>
-            <%= link_to edit_tweet_path(tweets), class: "level-item" do %>
+            <%= link_to edit_tweet_path(tweet), class: "level-item" do %>
               <span class="icon"><i class="fa fa-pencil" aria-hidden="true"></i></span>
             <% end %>
-            <%= link_to tweets, method: :delete, data: { confirm: "Are you sure you want to delete this tweet?"} do %>
+            <%= link_to tweet, method: :delete, data: { confirm: "Are you sure you want to delete this tweet?"} do %>
               <span class="icon"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
             <% end %>
           </div>
@@ -43,3 +43,4 @@
   </div>  
 
 <% end %>
+</div>
