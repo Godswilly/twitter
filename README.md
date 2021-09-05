@@ -1,24 +1,42 @@
-# README
+# Twitter-clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I cloned twitter and mock some of it's functionalities using Ruby on Rails and Bulma, In order to fully understand MVC, RestfulApi, a good experience using Device gem and implement CRUD.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails
+- Ruby
 
-* System dependencies
+# Getting Started
 
-* Configuration
+To get a local copy of the repository please run the following commands on your terminal:
 
-* Database creation
+```
+$ cd <folder>
+```
 
-* Database initialization
+~~~bash
+$ git clone https://github.com/Godswilly/twitter.git
+$ cd twitter
+$ bundle install 
+~~~
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+# Author
 
-* Deployment instructions
+👤 **Kalu Agu Kalu**
 
-* ...
+- Github: [@Godswilly](https://github.com/Godswilly)
+- Linkedin: [Kalu Agu Kalu](https://www.linkedin.com/in/kalu-agu-kalu/)
+- Twitter: [@KaluAguKalu17](https://twitter.com/KaluAguKalu17)
+- Email: (kalu.agukalu@gmail.com)
+
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+⭐️ this project if you like it!
